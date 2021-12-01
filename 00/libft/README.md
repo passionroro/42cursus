@@ -17,4 +17,4 @@ You can now either:
 Many testers are available : [libftTester](https://github.com/Tripouille/libftTester), [libft-unit-tester](https://github.com/alelievr/libft-unit-test), [Libftdestructor](https://github.com/t0mm4rx/libftdestructor), [FT_SPLIT_TESTER](https://github.com/Ysoroko/FT_SPLIT_TESTER)...
 To run these tests, please refer to the GitHub page of their creator :)
 
-Enjoy!
+Enjoy !
