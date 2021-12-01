@@ -14,7 +14,7 @@ Feel free to have a look at my code, but please be indulgent, it's the first tim
 |[libft](https://github.com/passionroro/42lausanne/tree/main/00/libft)					 |`115/100`            |
 |		_01_																						 
 |[Born2beroot](https://github.com/passionroro/42lausanne/tree/main/01/Born2beroot)          	 |`100/100`            |
-|[ft_printf](https://github.com/passionroro/42lausanne/tree/main/ft_printf)          	 |`100/100`            |
+|[ft_printf](https://github.com/passionroro/42lausanne/tree/main/01/ft_printf)          	 |`100/100`            |
 |[get_next_line](https://github.com/passionroro/42lausanne/tree/main/01)          	 |`failed`            |
 |_02_          ||
 |_to be continued..._
