@@ -6,6 +6,8 @@ Feel free to have a look at my code, but please be indulgent, it's the first tim
 > If you are another student of 42, look at your own risk...
 
 
+
+
 ## Projects overview
 
 |PROJECT         |GRADE													 
