@@ -1,21 +1,46 @@
 #include "get_next_line.h"
 
+char	*keep_remaining(char *sline)
+{
+	char	*ptr;
+	int	i;
+	int	j;
+
+	i = 0;
+	j = 0;
+	while (sline[i] && sline[i] != '\n')
+		i++;
+	if (!sline[i])
+	{
+		free(sline);
+		return (NULL);
+	}
+	ptr = malloc(sizeof(char) * (ft_strlen(sline) - i + 1));
+	if (!ptr)
+		return (NULL);
+	i++;
+	while (sline[i])
+		ptr[j++] = sline[i++];
+	ptr[j] = '\0';
+	free(sline);
+	return (ptr);
+}
+
 char	*copy_lines(char *sline)
 {
 	char	*line;
 	int	i;
 
 	i = 0;
-//	if (!sline[i])
-//		return (NULL);
-	while (sline[i] || sline[i] != '\n')
+	if (!sline[i])
+		return (NULL);
+	while (sline[i] && sline[i] != '\n')
 		i++;
 	line = malloc(sizeof(char) * (i + 2));
-	printf("%d\n", i);
 	if (!line)
 		return (NULL);
 	i = 0;
-	while (sline[i] || sline[i] != '\n')
+	while (sline[i] && sline[i] != '\n')
 	{
 		line[i] = sline[i];
 		i++;
@@ -54,13 +79,10 @@ char	*get_next_line(int fd)
 	if (fd < 0 || BUFFER_SIZE <= 0)
 		return (NULL);
 	sline = read_buffer(fd, sline);
-	printf("sline:	|%s|\n", sline);
 	if (!sline)
 		return (NULL);
 	line = copy_lines(sline);
-	//printf("line coucou:	|%s|\n", line);
-	//sline = keep_remaining(sline);
-	//printf("sline:	|%s|\n", sline);
+	sline = keep_remaining(sline);
 	return (line);
 }
 
@@ -71,15 +93,15 @@ int	main()
 	char	*line;
 
 	fd = open("coucou", O_RDONLY);
-	line = get_next_line(fd);
 	nb = 1;
-	while (nb < 5)
+	line = get_next_line(fd);
+	while (line)
 	{
-		//printf("line[%d]:	|%s|\n", nb, line);
-		free(line);
+		printf("line[%d]:	%s\n", nb, line);
 		nb++;
+		free(line);
 		line = get_next_line(fd);
 	}
-	close(fd);
+	close (fd);
 	return (0);
 }
