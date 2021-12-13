@@ -1,10 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rohoarau <marvin@42lausanne.ch>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/12/13 09:37:19 by rohoarau          #+#    #+#             */
+/*   Updated: 2021/12/13 09:59:41 by rohoarau         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "get_next_line.h"
 
 char	*keep_remaining(char *sline)
 {
 	char	*ptr;
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 
 	i = 0;
 	j = 0;
@@ -29,7 +41,7 @@ char	*keep_remaining(char *sline)
 char	*copy_lines(char *sline)
 {
 	char	*line;
-	int	i;
+	int		i;
 
 	i = 0;
 	if (!sline[i])
@@ -57,7 +69,7 @@ char	*copy_lines(char *sline)
 char	*read_buffer(int fd, char *sline)
 {
 	char	buff[BUFFER_SIZE + 1];
-	int	ret;
+	int		ret;
 
 	ret = 1;
 	while (ft_strchr(sline, '\n') != 1 && ret != 0)
@@ -85,7 +97,7 @@ char	*get_next_line(int fd)
 	sline = keep_remaining(sline);
 	return (line);
 }
-
+/*
 int	main()
 {
 	int	fd;
@@ -104,4 +116,4 @@ int	main()
 	}
 	close (fd);
 	return (0);
-}
+}*/
