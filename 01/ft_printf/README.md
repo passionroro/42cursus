@@ -1,12 +1,11 @@
 # ft_printf
 This project is clear and efficient. You have to recode printf. You will then be able to reuse it in your future projects. This project is mainly about variable size arguments. 
- - [ ] [Subject](https://github.com/passionroro/42lausanne/blob/main/01/ft_printf/fr.subject.pdf)
 
 ## Try it!
 First, use `git` to clone my libft into the directory of your choice. 
 `	git clone https://github.com/passionroro/42lausanne.git`
 
-Next, `cd` (_change directory_) into 42lausanne/00/ft_printf.
+Next, `cd` (_change directory_) into 42lausanne/01/ft_printf.
     `cd 42lausanne/00/ft_printf`
   
 You can now : 
