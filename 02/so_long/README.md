@@ -2,7 +2,7 @@
 so_long is our first graphic project at 42 in which we have to create our own 2D game! We are free to choose the textures of our game, as long as it contains a player, collectibles, and an exit.
 
 Here is what my game looks like (watch out, graphics are not my forte) :
-[INSERT IMAGE]
+![alt text](https://github.com/passionroro/42lausanne/blob/main/02/so_long/.gitignore/so_long-gif.gif)
 
 ## Try it!
 First, use `git` to clone my game into the directory of your choice. 
