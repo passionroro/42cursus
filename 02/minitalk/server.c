@@ -1,24 +1,48 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_recursive_power.c                               :+:      :+:    :+:   */
+/*   server.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rohoarau <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/17 11:55:36 by rohoarau          #+#    #+#             */
-/*   Updated: 2021/12/20 21:21:22 by rohoarau         ###   ########.fr       */
+/*   Created: 2021/12/20 11:26:21 by rohoarau          #+#    #+#             */
+/*   Updated: 2021/12/20 20:18:43 by rohoarau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
 
-int	ft_recursive_power(int nb, int power)
+void signal_handler(int sig)
 {
-	if (power == 0 && nb == 0)
-		return (1);
-	if (power < 0 || nb == 0)
-		return (0);
-	if (power == 0)
-		return (1);
-	return (nb * ft_recursive_power(nb, (power - 1)));
+	static int	d;
+	static int	bit;
+	static char	c;
+
+	if (sig == SIGUSR1)
+		d += ft_recursive_power(2, bit);
+	else if (sig == SIGUSR2)
+		;
+	bit++;
+	if (bit == 8)
+	{
+		write (1, &d, 1);
+		bit = 0;
+		d = 0;
+		c = 0;
+	}
+}
+
+int	main()
+{
+	int pid;
+
+	pid = getpid();
+	printf("PID: %d\n", pid);
+	while(1)
+	{
+		signal(SIGUSR1, signal_handler);
+		signal(SIGUSR2, signal_handler);
+		//pause();
+	}
+	return (0);
 }

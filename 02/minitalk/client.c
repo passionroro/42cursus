@@ -1,24 +1,50 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_recursive_power.c                               :+:      :+:    :+:   */
+/*   client.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rohoarau <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/17 11:55:36 by rohoarau          #+#    #+#             */
-/*   Updated: 2021/12/20 21:21:22 by rohoarau         ###   ########.fr       */
+/*   Created: 2021/12/20 11:14:28 by rohoarau          #+#    #+#             */
+/*   Updated: 2021/12/20 20:15:39 by rohoarau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
 
-int	ft_recursive_power(int nb, int power)
+void	ft_itob(char *str, int pid)
 {
-	if (power == 0 && nb == 0)
-		return (1);
-	if (power < 0 || nb == 0)
-		return (0);
-	if (power == 0)
-		return (1);
-	return (nb * ft_recursive_power(nb, (power - 1)));
+	int	i;
+	int	d;
+	int	bit;
+
+	i = 0;
+	d = 0;
+	while (str[i])
+	{
+		bit = 8;
+		while (bit-- > 0)
+		{
+			if (1 << bit)
+				kill(pid, SIGUSR1);
+			else
+				kill(pid, SIGUSR2);
+			usleep(200);
+		}
+		i++;
+	}
+}
+
+int	main(int argc, char **argv)
+{
+	int		pid;
+	char	*ptr;
+	int		i;
+
+	if (argc == 3)
+	{
+		pid = ft_atoi(argv[1]);
+		ft_itob(argv[2], pid);
+	}
+	return (0);
 }

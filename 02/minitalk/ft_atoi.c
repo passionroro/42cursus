@@ -6,11 +6,9 @@
 /*   By: rohoarau <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/13 10:53:12 by rohoarau          #+#    #+#             */
-/*   Updated: 2021/12/16 14:45:25 by rohoarau         ###   ########.fr       */
+/*   Updated: 2021/10/22 16:22:43 by rohoarau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "minitalk.h"
 
 int	ft_atoi(const char *str)
 {
@@ -30,15 +28,10 @@ int	ft_atoi(const char *str)
 			sign = -1;
 		i++;
 	}
-	while (str[i])
+	while (str[i] >= '0' && str[i] <= '9')
 	{
 		nb = nb * 10 + str[i] - '0';
 		i++;
 	}
-    return (nb * sign);
-}
-
-int	main()
-{
-	printf("%d\n", ft_atoi("h"));
+	return (nb * sign);
 }
