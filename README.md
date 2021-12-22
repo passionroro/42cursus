@@ -39,12 +39,13 @@ First, you need to open a Terminal.
 		- open it
 
 2) **Packet installation**\
-Once your terminal is open, you will have to install some packets to run the programs.\\
+Once your terminal is open, you will have to install some packets to run the programs.\
 **Installing git**\
 git will allow you to copy my repository (my project) into your environment. This way you will be able to look at the code, run it, edit it, test it... :)\
 In your terminal, run the commands : 
  - `sudo apt update`
  - `sudo apt install git-all`\
+\
 **Installing gcc**\
 GCC is a compiler that will allow you to, you guessed it, compile the programs.\
 In your terminal, run the commands : 
