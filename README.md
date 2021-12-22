@@ -30,7 +30,7 @@ I made the choice to detail only the projects that I think are important to the 
 
 If you want, you can try these projects, all you need is a computer and an internet connection :)
 
-1) Set up your environement
+1) Set up your environement\
 First, you need to open a Terminal.
 	- on macOS/Linux, simply open `Terminal`
 	- on Windows, you may wanna install a Unix environment. I would personnaly recommend installing Ubuntu from the Microsoft Store, but you can install any IDE (integrated development environment) such as Visual Studio Code, CLion, Sublime Text.
@@ -38,16 +38,16 @@ First, you need to open a Terminal.
 		- install **Ubuntu**
 		- open it
 
-2) Packet installation
+2) Packet installation\
 Once your terminal is open, you will have to install some packets to run the programs.
 
-**Installing git**
+**Installing git**\
 git will allow you to copy my repository (my project) into your environment. This way you will be able to look at the code, run it, edit it, test it... :)
 In your terminal, run the commands : 
  - `sudo apt update`
  - `sudo apt install git-all`
 
-**Installing gcc**
+**Installing gcc**\
 GCC is a compiler that will allow you to, you guessed it, compile the programs.
 In your terminal, run the commands : 
  - `sudo apt update`
