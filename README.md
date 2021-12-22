@@ -25,3 +25,30 @@ Feel free to have a look at my code, but please be indulgent, it's the first tim
 At School 42, we learn by project, with no teachers, no classes, and no schedule. 
 The projects you see above are ordered from the easiest to the most difficult, they are kind like our "classes". It is thanks to these projects that we learn the essential notions of programming :)
 I made the choice to detail only the projects that I think are important to the curriculum, but if you have any question about a project, don't hesitate to contact me !
+
+## Try them !!
+
+If you want, you can try these projects, all you need is a computer and an internet connection :)
+
+###Set up your environement
+First, you need to open a Terminal.
+	- on macOS/Linux, simply open `Terminal`
+	- on Windows, you may wanna install a Unix environment. I would personnaly recommend installing Ubuntu from the Microsoft Store, but you can install any IDE (integrated development environment) such as Visual Studio Code, CLion, Sublime Text.
+		- open Microsoft Store
+		- install **Ubuntu**
+		- open it
+
+###Packet installation
+Once your terminal is open, you will have to install some packets to run the programs.
+
+**Installing git**
+git will allow you to copy my repository (my project) into your environment. This way you will be able to look at the code, run it, edit it, test it... :)
+In your terminal, run the commands : 
+ - `sudo apt update`
+ - `sudo apt install git-all`
+
+**Installing gcc**
+GCC is a compiler that will allow you to, you guessed it, compile the programs.
+In your terminal, run the commands : 
+ - `sudo apt update`
+ - `sudo apt install build-essential`
