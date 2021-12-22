@@ -32,7 +32,7 @@ If you want, you can try these projects, all you need is a computer and an inter
 
 1) **Set up your environement**\
 
-First, you need to open a Terminal.
+First, you need to open a Terminal.\
 	- on macOS/Linux, simply open `Terminal`
 	- on Windows, you may wanna install a Unix environment. I would personnaly recommend installing Ubuntu from the Microsoft Store, but you can install any IDE (integrated development environment) such as Visual Studio Code, CLion, Sublime Text.
 		- open Microsoft Store
