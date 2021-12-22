@@ -47,7 +47,7 @@ In your terminal, run the commands :
  - `sudo apt update`
  - `sudo apt install git-all`\
 > (if you have any issues with `sudo`, look on the internet <3)
-\
+
 **Installing gcc**\
 GCC is a compiler that will allow you to, you guessed it, compile the programs.\
 In your terminal, run the commands : 
