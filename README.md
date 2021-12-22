@@ -46,7 +46,7 @@ git will allow you to copy my repository (my project) into your environment. Thi
 In your terminal, run the commands : 
  - `sudo apt update`
  - `sudo apt install git-all`\
-> (if you have any issues with `sudo`, look on the internet <3)
+> (if you have any issues with `sudo`, look on the internet I'm sure you will find an answer <3)
 
 **Installing gcc**\
 GCC is a compiler that will allow you to, you guessed it, compile the programs.\
