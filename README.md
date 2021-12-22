@@ -60,15 +60,15 @@ First, head into the repository of your choise ([so_long](https://github.com/pas
 You will find a guide to help you copy the code into your computer and run it.\
 If the repository doesn't have any guide, run the following commands :\
  - copy the URL of the repository (for example, https://github.com/passionroro/42cursus-so_long)
- - `git clone <URL> <*the name of your choice*>`
- - `cd <*the name of your choice*>`
-> What you did here is, you used `git clone` to copy the project into your computer, and you used `cd` to *change directory* into the project.\
-\
+ - `git clone <URL> *the name of your choice*`
+ - `cd *the name of your choice*`
+> What you did here is, you used `git clone` to copy the project into your computer, and you used `cd` to *change directory* into the project.
+
 You can now list all the  project files using `ls -la`\
 If there is a `Makefile`, run the commande `Make`. This should compile all the files you need to run the program.\
 In case there is no Makefile, you sould use `gcc` (remember the second packet we installed ?)\
  - `gcc -Wall -Werror -Wextra *.c`
  - `./a.out`
 > Here you compiled using gcc, that is you turned lines of code into something the computer can *run*. After compiling all the files that end with ".c", the compiler created an executable file, called *a.out*. Running `./a.out` will execute the program.
+
 **And we are done ! Congrats <3333**
-\
