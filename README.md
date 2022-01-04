@@ -18,6 +18,7 @@ Feel free to have a look at my code, but please be indulgent, it's the first tim
 |_02_          ||
 |[so_long](https://github.com/passionroro/42cursus-so_long)						|`120/100`	|Graphics	|
 |[minitalk](https://github.com/passionroro/42cursus-minitalk)					|`109/100`	|Unix, server-client communication	|
+|[push_swap](https://github.com/passionroro/42cursus-push_swap)					|`in progress`	|Algorithms	|
 |_to be continued..._
 
 ## What are these projects ?
