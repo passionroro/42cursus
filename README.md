@@ -21,6 +21,7 @@ Feel free to have a look at my code, but please be indulgent, it's the first tim
 |[push_swap](https://github.com/passionroro/42cursus-push_swap)					|`86/100`	|Algorithms	|
 |_03_          ||
 |[philosophers](https://github.com/passionroro/42cursus-philosophers)					|`in progress`	|Imperative programming		|
+|[minishell](https://github.com/passionroro/42cursus-minishell)					|`in progress`	|Unix		|
 
 
 ## What are these projects ?
