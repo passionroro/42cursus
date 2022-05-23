@@ -3,7 +3,7 @@
 Hi, I'm Romain! I'm a young student in computer science at **42lausanne**, a programming school opened in 2021 in Lausanne (Switzerland).\
 This GitHub gathers all the projects I did, in order, with the grade I got.\
 Feel free to have a look at my code, but please be indulgent, it's the first time I code :)\
-**Check [so_long](https://github.com/passionroro/42cursus-so_long), it's my favorite project so far!**
+<center>**Check [so_long](https://github.com/passionroro/42cursus-so_long), it's my favorite project so far!**</center>
 > If you are another student of 42, look at your own risk...
 
 ## Projects overview
