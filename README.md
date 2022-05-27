@@ -18,7 +18,7 @@ Feel free to have a look at my code, but please be indulgent, it's the first tim
 |[ft_printf](https://github.com/passionroro/42cursus-ft_printf)					|`100/100`	|Recreating printf from stdio library	|
 |[get_next_line](https://github.com/passionroro/42cursus-get_next_line)			|`105/100`	|C, Unix, Algorithms	|
 |_02_          ||
-|[so_long](https://github.com/passionroro/42cursus-so_long)						|`120/100`	|2D minigame	|
+|[so_long](https://github.com/passionroro/42cursus-so_long)						|`120/100`	|2D minigame in C	|
 |[minitalk](https://github.com/passionroro/42cursus-minitalk)					|`109/100`	|server-client communication	|
 |[push_swap](https://github.com/passionroro/42cursus-push_swap)					|`86/100`	|Sorting algorithm	|
 |_03_          ||
