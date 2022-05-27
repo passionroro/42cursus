@@ -12,10 +12,10 @@ Feel free to have a look at my code, but please be indulgent, it's the first tim
 |PROJECT	|GRADE	|NOTIONS	|
 |-----------|-------|-----------|
 |_00_
-|[libft](https://github.com/passionroro/42cursus-libft)							|`115/100`	|Recreating C standard libratry	|
+|[libft](https://github.com/passionroro/42cursus-libft)							|`115/100`	|Recreating the C standard library	|
 |_01_																						 
 |[Born2beroot](https://github.com/passionroro/42cursus-Born2beroot)				|`100/100`	|Virtual Machine	|
-|[ft_printf](https://github.com/passionroro/42cursus-ft_printf)					|`100/100`	|Recreating printf from stdio	|
+|[ft_printf](https://github.com/passionroro/42cursus-ft_printf)					|`100/100`	|Recreating printf from stdio library	|
 |[get_next_line](https://github.com/passionroro/42curses-get_next_line)			|`105/100`	|C, Unix, Algorithms	|
 |_02_          ||
 |[so_long](https://github.com/passionroro/42cursus-so_long)						|`120/100`	|2D minigame	|
