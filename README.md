@@ -24,6 +24,8 @@ Feel free to have a look at my code, but please be indulgent, it's the first tim
 |_03_          ||
 |[philosophers](https://github.com/passionroro/42cursus-philosophers) |`in progress` |The dining philosopher's problem |
 |[minishell](https://github.com/passionroro/42cursus-minishell)	 |`in progress`	|Recreating a shell in C |
+|_04_          ||
+|[cub3d](https://github.com/passionroro/42cursus-cub3d) |`in progress` |Recreating Wolfenstein in C |
 
 
 ## What are these projects ?
