@@ -23,7 +23,7 @@ Feel free to have a look at my code, but please be indulgent, it's the first tim
 |[push_swap](https://github.com/passionroro/42cursus-push_swap)	 |`86/100` |Sorting algorithm |
 |_03_          ||
 |[philosophers](https://github.com/passionroro/42cursus-philosophers) |`105/100` |The dining philosopher's problem |
-|[minishell](https://github.com/passionroro/42cursus-minishell)	 |`in progress`	|Recreating a shell in C |
+|[minishell](https://github.com/passionroro/42cursus-minishell)	 |`100/100`	|Recreating a shell in C |
 |_04_          ||
 |[cub3d](https://github.com/passionroro/42cursus-cub3d) |`in progress` |Recreating Wolfenstein in C |
 
